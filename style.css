@@ -1,0 +1,211 @@
+/* COLORS AND FONTS */
+.header, .content1, .footer
+{
+    background-color: #1F2937;
+}
+
+.footer
+{
+    color: #E5E7EB;
+}
+
+.big-text
+{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.links, .small-text
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.button1, .box, .button2
+{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px #3882F6 solid;
+    
+}
+
+.button1, .button2
+{
+    color: white;
+}
+
+.button2
+{
+    border: 2px #F9FAF8 solid;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.title1
+{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.quote
+{
+    background-color: #E5E7EB;
+}
+
+.q
+{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937
+}
+
+.section2
+{
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.title2
+{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.text
+{
+    color: #E5E7EB;
+}
+
+
+/* FLEX */
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.parent
+{
+    padding: 40px 400px;
+}
+
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.content1
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 80px 400px;
+}
+
+.section2
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button1
+{
+    max-width: 80px;
+    text-align: center;
+}
+
+.content2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.images
+{
+    display: flex;
+    gap: 16px;
+}
+
+.image
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+}
+
+.img
+{
+    width: 175px;
+    height: 175px;
+    border: 5px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.txt
+{
+    padding: 10px;
+}
+
+
+.author
+{
+    padding: 10px;
+    text-align: end;
+}
+
+.box
+{
+    display: flex;
+    padding: 40px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer
+{
+    text-align: center;
+}
